@@ -5,6 +5,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ListComponent } from './pages/list/list.component';
 import { SearchComponent } from './pages/search/search.component';
 import { AddComponent } from './pages/add/add.component';
+import { StudentsRoutingModule } from './students-routing.module';
 
 
 
@@ -19,7 +20,8 @@ import { AddComponent } from './pages/add/add.component';
   exports:[
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    StudentsRoutingModule
   ]
 })
 export class StudentsModule { }
