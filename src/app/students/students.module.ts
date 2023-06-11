@@ -15,7 +15,7 @@ import { StudentsRoutingModule } from './students-routing.module';
     HomeComponent,
     ListComponent,
     SearchComponent,
-    AddComponent
+    AddComponent,
   ],
   exports:[
   ],
